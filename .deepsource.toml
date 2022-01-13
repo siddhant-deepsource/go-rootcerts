@@ -1,5 +1,9 @@
 version = 1
 
+exclude_patterns = [
+   "src/vendor/**",
+]
+
 [[analyzers]]
 name = "go"
 enabled = true
